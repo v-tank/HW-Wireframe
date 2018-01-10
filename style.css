@@ -1,3 +1,5 @@
+/* define the font family, size, and the background color
+*/
 body {
 	padding: 0;
 	margin: 0;
@@ -6,12 +8,16 @@ body {
 	background-color: #777;
 }
 
+/* define the section width and height, and float it to the left
+*/
 section {
 	width: 495px;
 	height: 275px;
 	float: left;
 }
 
+/* define multiple attributes for most elements on the screen
+*/
 header,
 nav,
 section,
@@ -26,12 +32,14 @@ footer {
 	color: #777;
 }
 
+/* float the aside element to the right and specify dimensions*/
 aside {
 	float: right;
 	width: 44%;
 	height: 275px;
 }
 
+/* clear the footer so it displays as a block on a new line */
 footer {
 	content: "";
 	display: block;
@@ -44,6 +52,8 @@ article {
 	padding: 10px 5px;
 	color: #ebebeb;
 }
+
+/* specify the container width and spacing about the page */
 
 .container {
 	width: 960px;
